@@ -76,11 +76,7 @@ class StarterKitsMain extends React.Component {
                   </Item.Extra>
                   <Item.Extra>
                     <Button.Group floated="right">
-                      <Link
-                        to={{
-                          pathname: "/collections/all-sets"
-                        }}
-                      >
+                      <Link to="/collections/all-sets/">
                         <Button basic color="orange">
                           Make Your Own Kit
                         </Button>
