@@ -11,7 +11,7 @@ class App extends Component {
             <div>
                 <HeaderLayout/>
                 <Route exact path="/" component={StarterKitsMain} />
-                <Route exact path="/collections/all-sets" component={CustomKitDisplay} />
+                <Route exact path="/collections/all-sets/" component={CustomKitDisplay} />
                 <Footer/>
             </div>
         )
